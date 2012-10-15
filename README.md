@@ -10,16 +10,22 @@ Para agregar el repositorio es secillo, primero deben instalar github y despúes
 -Crear una carpeta del proyecto.
 - Iniciar git en esa carpeta con el comando:
   $ git init
+
 -Añadir la carpeta de trabajo:
-  $ git add /rox_rob/fichero
+  $ git add /fichero
+
 -Crear su primera conexión:
   $ git commit -m 'first commit'
+
 -Añadir el repositorio:
-$ git remote add origin git@github.com:emalis/rox_rob.git
+$ git remote add origin git@github.com:papatlan/LRMainProg.git
+
 -Extraer lo que existe en el repo:
 $ git pull origin master
+
 -Añadir carpeta y/o archivos:
 $ git push origin master
+
 -Cerrar sesión:
 $ git checkout
 
